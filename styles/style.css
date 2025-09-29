@@ -1,7 +1,5 @@
-
-* {
-  margin: 0;
-  padding: 0;
+body{
+    overflow-x: hidden;
 }
 
 .header {
@@ -278,7 +276,7 @@
 .about__logo {
   position: relative;
   top: 35px;
-  left: 47px;
+  margin-left: 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -305,8 +303,9 @@
 }
 
 .about_box {
-  justify-self: end;
-  width: 693px;
+  /* justify-self: end; */
+  /* width: 693px; */
+  max-width: 100%;
   padding-top: 133px;
 }
 
